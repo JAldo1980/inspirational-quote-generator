@@ -72,4 +72,52 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
 /* end of css reset */
+
+.wrapper {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-image: url(/images/img-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  transition: 0.5s;
+}
+
+.quote-box {
+  height: 250px;
+  width: 600px;
+  max-width: 700px;
+  background-color: aliceblue;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.quote-box:hover {
+  background-color: lightblue;
+  transition: 0.5s;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+.author {
+  margin-top: 1em;
+}
