@@ -17,3 +17,5 @@ Place box in a center of the page
 Use Javascript to display random quote on every refresh
 Change background image on refresh
 (create btn to randomise quotes?)
+
+- submit for code review
