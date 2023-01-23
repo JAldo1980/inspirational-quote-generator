@@ -112,6 +112,7 @@ select {
 .quote-box:hover {
   background-color: lightblue;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .quote {
