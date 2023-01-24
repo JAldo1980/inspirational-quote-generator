@@ -1,6 +1,11 @@
 const quotes = [
   {
-    quote: "The shimmering stars danced in the midnight sky.",
+    quote: "If you can dream it, you can become it.",
+    author: "- Jane Osbourne",
+    image: "/images/img-1.jpg",
+  },
+  {
+    quote: "Shimmering stars dance in the midnight sky.",
     author: "- Coby Jones",
     image: "/images/img-1.jpg",
   },
@@ -45,13 +50,11 @@ function randomiseObject() {
 
 let obj = randomiseObject();
 
-// print properties on page
+let newImage = obj.image;
 
-console.log(obj.quote);
-console.log(obj.author);
-console.log(obj.image);
+// print properties on page
 
 quoteOutput.textContent = obj.quote;
 authorOutput.textContent = obj.author;
 
-document.querySelector(".container").style.backgroundImage = obj.image;
+document.querySelector(".container").style.backgroundImage = `url(${newImage})`;
