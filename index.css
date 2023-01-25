@@ -84,9 +84,9 @@ select {
 }
 
 .container {
-  /* background-image: url(/images/img-1.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -96,10 +96,9 @@ select {
 }
 
 .quote-box {
-  height: 250px;
-  width: 600px;
+  max-height: 350px;
   max-width: 700px;
-  background-color: aliceblue;
+  background-color: RGBA(0, 59, 11, 0.7);
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   display: flex;
@@ -110,17 +109,19 @@ select {
 }
 
 .quote-box:hover {
-  background-color: lightblue;
+  background-color: RGBA(0, 59, 11, 0.9);
   transition: 0.5s;
   cursor: pointer;
 }
 
 .quote {
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .author {
   margin-top: 1em;
+  color: #fff;
 }
 
 a {

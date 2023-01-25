@@ -1,37 +1,41 @@
 const quotes = [
   {
-    quote: "If you can dream it, you can become it.",
-    author: "- Jane Osbourne",
-    image: "/images/img-1.jpg",
+    quote:
+      "Come all you Xeno scum and fallen heretics! Come face the one true might of the universe and wither under the Golden Throne's gaze!",
+    author: "- Chaplain Varnus of the Ultramarines",
+    image: "images/ultramarine-1.jpeg",
   },
   {
-    quote: "Shimmering stars dance in the midnight sky.",
-    author: "- Coby Jones",
-    image: "/images/img-1.jpg",
-  },
-
-  {
-    quote: "The quick brown fox jumps over the lazy dog.",
-    author: "- Harry Smith ",
-    image: "/images/img-2.jpg",
+    quote:
+      "We follow in the footsteps of Guilliman. As it is written in the Codex, so shall it be.",
+    author: "- Marneus Calgar, Chapter Master of the Ultramarines",
+    image: "images/ultramarine-2.jpeg",
   },
 
   {
-    quote: "Golden leaves rustled in the autumn breeze.",
-    author: "- Sally Boop",
-    image: "/images/img-3.jpg",
+    quote:
+      "The roar of engines, the recoil of cannons. That is where the true joy of battle lies.",
+    author: "- Sergeant Antaro Chronus, Ultramarines",
+    image: "images/ultramarine-3.webp",
   },
 
   {
-    quote: "The ocean waves whispered secrets to the shore.",
-    author: "- Anne Jilly",
-    image: "/images/img-4.jpg",
+    quote: "A foe without honour is a foe already beaten.",
+    author: "- Ancient Helveticus, Ultramarines Honour Guard",
+    image: "images/ultramarine-4.webp",
   },
 
   {
-    quote: "A symphony of colors painted the sunset sky.",
-    author: "- Howard Burn",
-    image: "/images/img-5.jpg",
+    quote: "Praise the sun that brings the dawn of our final doom.",
+    author: "- Saul Invictus, First Captain of the Ultramarines",
+    image: "images/ultramarine-5.jpeg",
+  },
+
+  {
+    quote:
+      "The Emperor protects, and having a loaded bolter never hurt, either.",
+    author: "- Apothecary Pythol, Ultramarines 2nd Company",
+    image: "images/ultramarine-6.jpeg",
   },
 ];
 
