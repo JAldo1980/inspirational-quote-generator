@@ -46,17 +46,16 @@ let authorOutput = document.getElementById("author-output");
 
 // function that randomly changes quote/author & background image
 
-// randomise object
+// randomise objects
 function randomiseObject() {
   let randomObject = Math.floor(Math.random() * quotes.length);
   return quotes[randomObject];
 }
 
 let obj = randomiseObject();
-
 let newImage = obj.image;
 
-// print properties on page
+// render output on page
 
 quoteOutput.textContent = obj.quote;
 authorOutput.textContent = obj.author;
